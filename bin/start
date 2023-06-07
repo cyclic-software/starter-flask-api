@@ -1,25 +1,3 @@
 #!/usr/bin/env bash
 
-# pwd
-# ls -la
-# ls -la ./bin
-# env | sort
-# echo $PATH
-
-# export FLASK_APP=app
-# export FLASK_ENV=production
-
-# python --version
-
-# python server.py
-
-# gunicorn -w 1 'server:app'
-# python -m flask run --host=0.0.0.0 --port 3000
-# ./flask run
-
-
-# This works
-# python gunicorn_runner.py
-
-
-PYTHONUNBUFFERED=TRUE python uvicorn_runner.py
+PYTHONUNBUFFERED=TRUE python server.py
